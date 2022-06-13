@@ -1,9 +1,0 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Ubuntu&display=swap');
-html, body {
-  height: 100%;
-  width: 100%;
-}
-body {
-  background: linear-gradient(to bottom right, #00076f,#44008b,#9f45b0,	#e54ed0, 	#ffe4f2) repeat scroll 0 0;
-}
-    
