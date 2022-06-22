@@ -2,10 +2,10 @@
 import { Fragment } from 'react';
 import React from 'react';
 import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon, HashtagIcon, SearchIcon, ServerIcon, SupportIcon } from '@heroicons/react/outline'
-  const handleClick = () => {
+const handleClick = () => {
     setOpen(true);
     navigator.clipboard.writeText("galaxynetwork.ml");
-  };
+};
 
 
 const features = [
@@ -75,12 +75,12 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
-                  <a
+                  <button
                     onClick={handleClick}
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                   >
                     Copy IP
-                  </a>
+                  </button>
                 </div>
               </div>
             </div>
