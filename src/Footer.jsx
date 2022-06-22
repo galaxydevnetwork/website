@@ -17,6 +17,12 @@ function Footer() {
                 <li class="mb-4">
                     <a href="/" class="hover:underline">Home</a>
                 </li>
+                <li class="mb-4">
+                    <a href="https://docs.galaxynetwork.ml/">Documentation</a>
+                </li>
+                <li class="mb-4">
+                    <a href="https://blog.galaxynetwork.ml/">Blog</a>
+                </li>
             </ul>
         </div>
         <div>
