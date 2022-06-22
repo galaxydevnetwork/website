@@ -11,7 +11,6 @@ function PageNotFound() {
           <div className="Divider"></div>
         </div>
     </div>
-    </div>
     </>
   );
 }
