@@ -4,7 +4,7 @@ import React from 'react';
 import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon, HashtagIcon, SearchIcon, ServerIcon, SupportIcon } from '@heroicons/react/outline'
   const handleClick = () => {
     setOpen(true);
-    navigator.clipboard.writeText("Here");
+    navigator.clipboard.writeText("galaxynetwork.ml");
   };
 
 
