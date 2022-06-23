@@ -8,7 +8,8 @@ module.exports = {
     "./src/Pages/Servers.jsx",
     "./src/Pages/404.jsx",
     "./src/Footer.jsx",
-    "./src/Pages/About.jsx"
+    "./src/Pages/About.jsx",
+    "./src/Announcement.jsx"
            ],
   theme: {
     extend: {
