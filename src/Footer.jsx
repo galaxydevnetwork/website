@@ -2,7 +2,6 @@ import React from 'react';
 
 function Footer() {
   return(
-    
 <footer class="bg-gray-800">
     <div class="grid grid-cols-2 gap-8 py-8 px-6">
         <div>
@@ -55,4 +54,5 @@ function Footer() {
 </footer>
   )
 }
+
 export default Footer;
