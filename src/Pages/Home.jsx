@@ -2,6 +2,43 @@
 import { Fragment } from 'react';
 import React from 'react';
 import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon, HashtagIcon, SearchIcon, ServerIcon, SupportIcon } from '@heroicons/react/outline';
+const ranks = [
+  {
+    name: 'Member',
+    description:
+      'The normal rank for people joining the server. one /sethome',
+  },
+  {
+    name: 'VIP',
+    description:
+      "The rank for people who played the server for 3 days. Fly and changing tag and 3 /sethome will be enabled after achieving the rank.",
+  },
+  {
+    name: 'VIP+',
+    description:
+      'The rank for people who play daily for 1 week. Fly, Changing tag, 10 /sethome achieving',
+  },
+  {
+    name: 'Galaxy',
+    description:
+      'Galaxy, a rank for people who got it so randomly, most accurance is GalaxyDevel0per giving you the rank.',
+  },
+  {
+    name: 'Staff',
+    description:
+      "It's a rank for staff working for galaxynetwork, moderating the chat, developing things and giving ideas. Every Permission",
+  },
+  {
+    name: 'CO-OWNER',
+    description:
+      "This rank is only for the Co-owner, CO-Owners can also be GalaxyDevel0per's friend. Every permission",
+  },
+  {
+    name: 'GalaxyDev',
+    description:
+      "This role is for GalaxyDevel0per and to not be used for people, this is only for the owner in GalaxyNetwork which is GalaxyDevel0per. Every permission",
+  },
+]
 
 const features = [
   {
@@ -104,6 +141,45 @@ export default function Home() {
             ))}
           </dl>
         </div>
+          <div>
+            <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">Rank</h2>
+            <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">A way of understanding what the ranks are</h2>
+            <p className="mt-4 text-gray-500">
+              The ranks in the servers, you can learn them so then when you see them, you can understand what it is</p>
+  
+            <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+              {ranks.map((rank) => (
+                <div key={rank.name} className="border-t border-gray-200 pt-4">
+                  <dt className="font-medium text-gray-900">{rank.name}</dt>
+                  <dd className="mt-2 text-sm text-gray-500">{rank.description}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
+          <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+            <span className="block">Ready to dive in?</span>
+            <span className="block text-indigo-600">Start your free trial today.</span>
+          </h2>
+          <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+            <div className="inline-flex rounded-md shadow">
+              <a
+                href="#"
+                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
+              >
+                Get started
+              </a>
+            </div>
+            <div className="ml-3 inline-flex rounded-md shadow">
+              <a
+                href="#"
+                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50"
+              >
+                Learn more
+              </a>
+            </div>
+            </div>
+          </div>
       </div>
     </div>
     </div>
