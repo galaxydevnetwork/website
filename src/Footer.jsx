@@ -34,8 +34,8 @@ function Footer() {
                       <li class="mb-4">
                           <a href="https://twitter.com/GLXYDEVNETWORK" class="hover:underline">Twitter</a>
                       </li>
-                    <li class="mb-4"><a href="https://discord.gg/pvMdwVhekf" class="hover:underline">
-                         Contact us
+                    <li class="mb-4">
+                          <a href="https://discord.gg/pvMdwVhekf" class="hover:underline">Contact us</a>
                       </li>
                   </ul>
               </div>
