@@ -32,7 +32,7 @@ function Footer() {
                     <a href="https://discord.gg/pvMdwVhekf" class="hover:underline">Discord Server</a>
                 </li>
                 <li class="mb-4">
-                  <a href="https://twitter.com/GLXYDevNetwork" class="hover:underline">Twitter</a>
+                    <a href="https://twitter.com/GLXYDEVNETWORK" class="hover:underline">Twitter</a>
                 </li>
               <li class="mb-4"><a href="#" class="hover:underline">
                     <a href="https://discord.gg/pvMdwVhekf" class="hover:underline">Contact Us</a>
