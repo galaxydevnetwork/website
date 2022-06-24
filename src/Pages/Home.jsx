@@ -56,7 +56,7 @@ const features = [
   {
     name: '24/7 Always',
     description:
-      'We try to make it possible for people who want ',
+      'We try to make it possible for people who want to join at a specific time, so then they can get freedom.',
     icon: LightningBoltIcon,
   },
   {
