@@ -86,7 +86,7 @@ export default function Home() {
       <div className="max-w-7xl mx-auto flex items-center justify-center h-screen">
         <div className="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
           <main className="mt-10 mx-auto max-w-7xl px-4 sm: sm: md: lg: lg: xl:">
-            <div className="justify-center item-center sm:text-center lg:text-center">
+            <div className="justify-center item-center">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                 <span className="block xl:inline">The GalaxyNetwork that </span>
                 <span className="block text-indigo-600 xl:inline">Actually works!</span>
