@@ -12,13 +12,13 @@ export default function Announcement() {
               <SpeakerphoneIcon className="h-6 w-6 text-white" aria-hidden="true" />
             </span>
             <p className="ml-3 font-medium text-white truncate">
-              <span className="md:hidden">GalaxyNetwork Released</span>
-              <span className="hidden md:inline">Big news! We're excited to announce that GalaxyNetwork is now releasing</span>
+              <span className="md:hidden">GalaxyDev Released</span>
+              <span className="hidden md:inline">Big news, the documentation for galaxydev is released</span>
             </p>
           </div>
           <div className="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
             <a
-              href="https://blog.galaxynetwork.ml/galaxynetwork-new/"
+              href="https://galaxydevnetwork.github.io/galaxydev"
               className="flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-indigo-600 bg-white hover:bg-indigo-50"
             >
               Learn more
