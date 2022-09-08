@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 import Home from "./Pages/Home";
-import Servers from "./Pages/Servers";
+import Project from "./Pages/Project";
 import PageError from "./Pages/404";
 import Navbar from "./Nav";
 import Footer from './Footer';
@@ -16,7 +16,7 @@ function App() {
       <Announcement />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Servers" element={<Servers />} />
+        <Route path="/Projects" element={<Project />} />
         <Route path="/About" element={<About />} />
         <Route path="/*" element={<PageError />} />
       </Routes>
