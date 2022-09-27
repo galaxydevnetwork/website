@@ -23,6 +23,9 @@ function Footer() {
                       <li class="mb-4">
                           <a href="https://blog.galaxynetwork.ml/">Blog</a>
                       </li>
+                      <li class="mb-4">
+                          <a href="./robots.txt">Robots.txt</a>
+                      </li>
                   </ul>
               </div>
               <div>
