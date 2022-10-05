@@ -9,13 +9,13 @@ function Footer() {
                   <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase text-center">GalaxyNetwork</h2>
                   <ul class="text-gray-300 text-center">
                       <li class="mb-4">
-                          <a href="About" class=" hover:underline">About</a>
+                          <a href="/" class=" hover:underline">Home</a>
                       </li>
                       <li class="mb-4">
-                          <a href="Servers" class="hover:underline">Servers</a>
+                          <a href="projects" class="hover:underline">Projects</a>
                       </li>
                       <li class="mb-4">
-                          <a href="/" class="hover:underline">Home</a>
+                          <a href="about" class="hover:underline">About</a>
                       </li>
                       <li class="mb-4">
                           <a href="https://docs.galaxynetwork.ml/">Documentation</a>
@@ -24,21 +24,18 @@ function Footer() {
                           <a href="https://blog.galaxynetwork.ml/">Blog</a>
                       </li>
                       <li class="mb-4">
-                          <a href="./robots.txt">Robots.txt</a>
+                          <a href="robots.txt">Robots.txt</a>
                       </li>
                   </ul>
               </div>
               <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase text-center">Help center</h2>
+                  <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase text-center">Help Center</h2>
                   <ul class="text-gray-300 text-center">
                       <li class="mb-4">
                           <a href="https://discord.gg/pvMdwVhekf" class="hover:underline">Discord Server</a>
                       </li>
-                      <li class="mb-4">
-                          <a href="https://twitter.com/GLXYDEVNETWORK" class="hover:underline">Twitter</a>
-                      </li>
                     <li class="mb-4">
-                          <a href="https://discord.gg/pvMdwVhekf" class="hover:underline">Contact us</a>
+                          <a href="https://reddit.com/r/meme20200" class="hover:underline">Reddit</a>
                       </li>
                   </ul>
               </div>

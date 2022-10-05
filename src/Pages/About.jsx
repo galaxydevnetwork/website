@@ -8,11 +8,15 @@ function About() {
       <div class="">
         <h1 class="text-2xl"><b>About GalaxyNetwork</b></h1>
         <div class="space-y-6 py-8 text-base leading-7 text-gray-600">
-          <p>GalaxyNetwork or GalaxyDevNetwork is a server which was made in 2022 by galaxydevel0per, combining servers into one, like Hypixel we make it like a Network, This is not about trying to compete with any server we want it to be like a server with freedom like allowing cracked users and bedrock users joining the server.</p>
+          <p>GalaxyDevNetwork is a project made by GalaxyDevel0per which is to connect all projects into one project</p>
         </div>
-        <h1 class="space-y-6 text-xl"><b>About the SMP & Atlas</b></h1>
+        <h1 class="space-y-6 text-xl"><b>About meme20200</b></h1>
         <div class="space-y-6 py-8 text-base leading-7 text-gray-600">
-          <p>The SMP & Atlas is a way of connecting to one server with two worlds, the original SMP and Atlas, since lot's of minecraft servers like the idea of SMPs, </p>
+          <p>meme20200 is a Minehut Server developed by GalaxyDevel0per (minecraft_20200) & co-owners are: jkeker, DeadzWRLD & Trollare, This was developed in 2020 and still stands today!</p>
+        </div>
+        <h1 class="space-y-6 text-xl"><b>About GalaxyDev</b></h1>
+        <div class="space-y-6 py-8 text-base leading-7 text-gray-600">
+          <p>GalaxyDev is a Discord Bot which started GalaxyDevNetwork and revived meme20200, It has problems and may not be updated later this year </p>
         </div>
         <div class="pt-8 text-base font-semibold leading-7">
           <p class="text-gray-900">Wanna return to home?</p>
