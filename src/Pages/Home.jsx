@@ -59,7 +59,7 @@ const features = [
   },
 ]
 
-export default function Home() {
+function Home() {
   return (
     <>
     <div className="relative overflow-hidden">
