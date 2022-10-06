@@ -75,19 +75,19 @@ function Nav() {
                   </ul>
                   <ul class="hidden md:block">
                       <li>
-                          <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                          <a href="http://galaxydevnetwork.github.io/galaxydev/" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
                               <div class="font-semibold">GalaxyDev</div>
                               <span class="text-sm font-light text-gray-500 dark:text-gray-400">The discord bot which came from the galaxy neighbourhood</span>
                           </a>
                       </li>
                       <li>
-                          <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                          <a href="http://galaxydevnetwork.github.io/galaxydev/blog" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
                               <div class="font-semibold">GalaxyDev Blogs</div>
                               <span class="text-sm font-light text-gray-500 dark:text-gray-400">Blogs that are made from the devel0per who made it</span>
                           </a>
                       </li>
                       <li>
-                          <a href="#" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+                          <a href="https://galaxydevnetwork.github.io/galaxydev/docs/intro" class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
                               <div class="font-semibold">GalaxyDev Docs</div>
                               <span class="text-sm font-light text-gray-500 dark:text-gray-400">Learn the powers of this discord bot</span>
                           </a>
