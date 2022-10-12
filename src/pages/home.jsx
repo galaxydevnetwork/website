@@ -63,27 +63,31 @@ function Home() {
   return (
     <>
       <Toolbar />
-<div className="relative overflow-hidden">
+      <div className="relative overflow-hidden">
         <div className="max-w-7xl mx-auto flex items-center justify-center h-screen">
           <div className="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
             <main className="mt-10 mx-auto max-w-7xl px-4 sm: sm: md: lg: lg: xl:">
               <div>
                 <h2 className="text-center text-4xl font-extrabold text-gray-900 sm:text-5xl">The GalaxyDevNetwork that</h2>
-                <h2 className="text-indigo-600 text-4xl font-extrabold text-gray-900 sm:text-5xl">Actually works!</h2>
+                <h2 className="text-center text-indigo-600 text-4xl font-extrabold text-gray-900 sm:text-5xl">Actually works!</h2>
                 <p className="mt-3 text-base text-center text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                   With projects like <a href="https://www.meme20200.tk">meme20200</a> & GalaxyDev
                 </p>
-                <div className="sm:mt-8 sm:flex sm:justify-center lg:justify-center">
+                                <div className="sm:mt-8 sm:flex sm:justify-center lg:justify-center">
+
                   <div className="rounded-md shadow">
+
                     <a
+
                       href="https://galaxynetwork.page.link/discord"
-                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
-                    >
+
+                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
                       Join our Discord
                     </a>
                   </div>
-                </div>
               </div>
+              </div>
+              
             </main>
           </div>
         </div>
@@ -141,7 +145,7 @@ function Home() {
             <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
               <div className="inline-flex rounded-md shadow">
                 <a
-                  href="/projects"
+                  href="https://docs.galaxynetwork.ml/"
                   className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
                 >
                   Get started
