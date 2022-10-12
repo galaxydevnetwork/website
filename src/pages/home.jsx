@@ -1,7 +1,7 @@
-/* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from 'react';
 import React from 'react';
-import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon, HashtagIcon, SearchIcon, ServerIcon, SupportIcon } from '@heroicons/react/outline';
+import { GlobeAltIcon, LightningBoltIcon, ScaleIcon, HashtagIcon, ServerIcon, SupportIcon } from '@heroicons/react/outline';
+import Toolbar from '@mui/material/Toolbar';
+
 const project = [
   {
     name: 'GalaxyDevNetwork',
@@ -62,16 +62,15 @@ const features = [
 function Home() {
   return (
     <>
-      <div className="relative overflow-hidden">
+      <Toolbar />
+<div className="relative overflow-hidden">
         <div className="max-w-7xl mx-auto flex items-center justify-center h-screen">
           <div className="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
             <main className="mt-10 mx-auto max-w-7xl px-4 sm: sm: md: lg: lg: xl:">
-              <div className="justify-center item-center">
-                <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                  <span className="block xl:inline">The GalaxyNetwork that </span>
-                  <span className="block text-indigo-600 xl:inline">Actually works!</span>
-                </h1>
-                <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+              <div>
+                <h2 className="text-center text-4xl font-extrabold text-gray-900 sm:text-5xl">The GalaxyDevNetwork that</h2>
+                <h2 className="text-indigo-600 text-4xl font-extrabold text-gray-900 sm:text-5xl">Actually works!</h2>
+                <p className="mt-3 text-base text-center text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                   With projects like <a href="https://www.meme20200.tk">meme20200</a> & GalaxyDev
                 </p>
                 <div className="sm:mt-8 sm:flex sm:justify-center lg:justify-center">
@@ -119,16 +118,17 @@ function Home() {
             </dl>
           </div>
             <div>
-              <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">Rank</h2>
-              <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">A way of understanding what Projects we currently have</h2>
+              <Toolbar />
+              <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase text-center">Projects</h2>
+              <h2 className="mt-2 text-3xl leading-8 font-extrabold text-center tracking-tight text-gray-900 sm:text-4xl">A way of understanding what Projects we currently have</h2>
               <p className="mt-4 text-gray-500">
                 The projects we make so you can use them!</p>
 
               <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
-                {projects.map((project) => (
-                  <div key={project.name} className="border-t border-gray-200 pt-4">
-                    <dt className="font-medium text-gray-900">{project.name}</dt>
-                    <dd className="mt-2 text-sm text-gray-500">{project.description}</dd>
+                {project.map((projects) => (
+                  <div key={projects.name} className="border-t border-gray-200 pt-4">
+                    <dt className="font-medium text-gray-900">{projects.name}</dt>
+                    <dd className="mt-2 text-sm text-gray-500">{projects.description}</dd>
                   </div>
                 ))}
               </dl>
